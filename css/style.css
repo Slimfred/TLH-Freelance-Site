@@ -1,0 +1,218 @@
+/**** Applies to whole page ****/
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #f4e6ff;
+  color: #4b0082;
+  padding-top: 3%;
+  margin-bottom: 3%;
+  height:100%;
+  font-size: 16px;
+}
+h1,
+h2,
+h3,
+h4,
+span {
+  font-family: Itim, "Trebuchet MS", Arial, sans-serif;
+}
+p,
+li,
+label {
+  font-family: "Source Sans Pro", Futura, Tahoma, sans-serif;
+}
+label {
+  font-size: 1.25em;
+}
+a,
+a:visited {
+  color: indigo;
+}
+.container-fluid h2 {
+  -webkit-margin-after: .5em;
+}
+.container-fluid p {
+  -webkit-margin-before: .5em;
+  font-size: 1.15em;
+}
+
+/**** Navigation ****/
+.navbar {
+  background-color: #e6d2f9;
+  border-color: transparent;
+  font-size: 1.25em;
+}
+.navbar-header {
+  padding-left: 2%;
+}
+.nav {
+  display: flex;
+  flex-basis: 100%;
+  padding-right: 2%;
+}
+.nav-pills li a {
+  color: black;
+}
+.navbar-toggle .icon-bar {
+  background-color: indigo;
+}
+.nav-pills li.active a,
+.nav-pills li.active a:focus,
+.nav-pills li.active a:hover {
+    color: #e6d2f9;
+    background-color: indigo;
+}
+.nav-pills li a:focus {
+  background-color: #bf66ff;
+  color: black;
+}
+.navbar-collapse.in {
+    overflow-y: visible;
+}
+.tracylynhall a {
+  font-family: Itim, "Trebuchet MS", Arial, sans-serif;
+  font-size: 1.5em;
+  color: indigo;
+}
+
+/**** Landing Page ****/
+.landing-page {
+  display: flex;
+  flex-direction: column;
+}
+.landing-page h1, h2 {
+  text-align: center;
+}
+.landing-page h1 {
+  font-size: 3.5em;
+  padding-bottom: .5%;
+}
+.land-header {
+  background: url(../img/iris-cover.png);
+  padding: 2% 0;
+}
+.land-header h1 {
+  text-shadow: 1px 2px 2px #1a1a1a;
+}
+.info-block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.port-slides {
+  margin-top: 5%;
+}
+
+/**** About & Contact Page ****/
+.header {
+  background-image: url(../img/irissm.png);
+  background-size: cover;
+  margin-bottom: 2%;
+}
+.header h1 {
+  text-align: center;
+  font-size: 2.75em;
+}
+.social-media-links {
+  text-align: center;
+}
+.social-media-links ul {
+  -webkit-padding-start: 0;
+}
+.social-media-links ul li {
+  display: inline-block;
+}
+
+
+/**** About Page ****/
+.about-me {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.who-i-am a {
+  text-decoration: underline;
+}
+.what-i-can-do h3 {
+  font-size: 1.35em;
+  margin-bottom: 0;
+}
+.what-i-can-do p {
+  margin-left: 2%;
+}
+
+/**** Contact Page ****/
+.contact-background h2 {
+  font-weight: bold;
+  text-shadow: 1px 2px 2px #bdf5bd;
+}
+.email h2 {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 2%;
+  line-height: .5em;
+}
+.phone-social {
+  padding-top: 2%;
+}
+#envelope {
+  width: 8%;
+  margin-bottom: 3%;
+}
+.phone {
+  padding-top: 10%;
+  text-align: center;
+}
+#telephone-icon {
+  width: 11%;
+  padding-bottom: 7%;
+  display: inline-block;
+}
+.skype {
+  text-align: center;
+}
+#call-me {
+  display: inline-block;
+  margin-left: 2%;
+}
+#skype-icon {
+  width: 11%;
+  padding-bottom: 7%
+}
+#skype-me {
+  display: inline-block;
+  /*margin-left: 2%;*/
+}
+.contact-me {
+  padding: 1%;
+}
+
+/**** Portfolio Page ****/
+.projects {
+  display: flex;
+  /*flex-direction: column;*/
+  flex-wrap: wrap;
+  justify-content: space-around;
+  /*align-items: center;*/
+}
+.portfolio {
+  padding: 2% 4%;
+  text-align: center;
+}
+.info {
+  font-size: 1.75em;
+}
+
+/**** Certificates ****/
+.certs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/**** Footer ****/
+footer {
+ font-size: .85em;
+}
